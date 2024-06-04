@@ -48,6 +48,11 @@ android {
 }
 
 dependencies {
+    // MAPLIBRE
+    implementation ("org.maplibre.gl:android-sdk:10.0.2")
+    //UBICATION
+    implementation ("com.google.accompanist:accompanist-permissions:0.24.13-rc")
+    // FIREBASE
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
     implementation("com.google.firebase:firebase-analytics")
     implementation ("com.google.firebase:firebase-database-ktx:20.0.2")
@@ -63,6 +68,7 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.firebase.database.ktx)
     implementation(libs.androidx.constraintlayout.compose)
+    implementation(libs.play.services.location)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

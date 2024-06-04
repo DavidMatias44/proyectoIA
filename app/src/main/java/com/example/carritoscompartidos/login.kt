@@ -1,5 +1,3 @@
-@file:Suppress("NAME_SHADOWING")
-
 package com.example.carritoscompartidos
 
 import android.content.Context
