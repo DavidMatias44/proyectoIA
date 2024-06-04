@@ -7,7 +7,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.viewinterop.AndroidView
 import com.example.carritoscompartidos.ui.theme.CarritosCompartidosTheme
-import com.google.accompanist.permissions.ExperimentalPermissionsApi
 
 import com.mapbox.mapboxsdk.Mapbox
 import com.mapbox.mapboxsdk.camera.CameraPosition
@@ -38,7 +37,6 @@ class MapActivity : ComponentActivity() {
     }
 }
 
-@OptIn(ExperimentalPermissionsApi::class)
 @Composable
 fun MapScreen(
     userType: String,

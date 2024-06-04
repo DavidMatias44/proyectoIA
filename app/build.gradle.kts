@@ -51,7 +51,9 @@ dependencies {
     // MAPLIBRE
     implementation ("org.maplibre.gl:android-sdk:10.0.2")
     //UBICATION
-    implementation ("com.google.accompanist:accompanist-permissions:0.24.13-rc")
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
+    implementation ("com.google.maps.android:maps-compose:2.14.0")
+    implementation ("com.google.android.gms:play-services-maps:18.2.0")
     // FIREBASE
     implementation(platform("com.google.firebase:firebase-bom:33.0.0"))
     implementation("com.google.firebase:firebase-analytics")
